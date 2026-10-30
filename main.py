@@ -6,7 +6,7 @@ app = FastAPI()
 
 def read_root():
     return {
-        "message" : "Chào mừng đến với FastAPI"
+        "message" : "Chào mừng đến với FastAPI123"
     }
     
 @app.get("/students")
